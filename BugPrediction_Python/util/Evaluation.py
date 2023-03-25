@@ -80,7 +80,7 @@ class Evaluation:
         AUC = round(AUC, 2)
 
         print(
-            "AUC: {}\nbalanced_acc: {}\nrecall@top20: {}\neffort@top20: {}\nMCC: {}\nclassification report\n{}".format(
+            "AUC: {}\nbalanced_acc: {}\nrecall@top20: {}\neffort@recall20: {}\nMCC: {}\nclassification report\n{}".format(
                 AUC,
                 balanced_acc,
                 recall_top_k,
